@@ -1,2 +1,5 @@
 # Iris-Dataset-Model-Web-Deployment-using-Flask
-we outline the process of developing and deploying a machine learning model to predict the species of iris flowers based on their physical characteristics. 
+In this Repository, we outline the process of developing and deploying a machine learning model to predict the species of iris flowers based on their physical characteristics. The iris dataset, a classic in the field of machine learning, consists of 150 samples across three species, with four features each: sepal length, sepal width, petal length, and petal width. A logistic regression model, chosen for its efficacy in binary and multiclass classification problems, was trained using this dataset.
+
+The goal of this project is not only to train a model with high predictive accuracy but also to deploy this model into a production-like environment using a Flask web application. This enables end-users to make predictions through a simple web interface. The Flask framework was chosen for its simplicity and efficiency in creating lightweight web services. By the end of this document, the reader will be familiar with the complete workflow which includes data preprocessing, model training, serialization of the trained model, and deployment using Flask within a virtual environment in Visual Studio Code.
+
